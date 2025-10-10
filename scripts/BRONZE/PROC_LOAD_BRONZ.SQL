@@ -147,27 +147,4 @@ BEGIN
 END
 
 -------------------------------------------------------------------------
--------------------------------------------------------------------------
-SELECT COUNT(*) FROM BRONZE.CRM_CUST_INFO
-select * from bronze.crm_cust_info
 
-SELECT COUNT(*) FROM BRONZE.CRM_PRD_INFO
-SELECT * FROM BRONZE.CRM_PRD_INFO
-
-SELECT COUNT(*) FROM BRONZE.CRM_SALES_DETAILS;
-SELECT * FROM BRONZE.CRM_SALES_DETAILS;
-
-SELECT COUNT(*) FROM BRONZE.ERP_CUST_AZ12;
-SELECT * FROM BRONZE.ERP_CUST_AZ12;
-
-SELECT COUNT(*) FROM BRONZE.ERP_LOC_A101;
-SELECT * FROM BRONZE.ERP_LOC_A101;
-
-SELECT COUNT(*) FROM BRONZE.ERP_PX_CAT_G1V2;
-SELECT * FROM BRONZE.ERP_PX_CAT_G1V2;
-
----------------------------------------------------------------
---------------------------------------------------------------
-EXEC BRONZE.LOAD_BRONZE
----------------------------------------------------------------
----------------------------------------------------------------
