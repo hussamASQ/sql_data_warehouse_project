@@ -1,3 +1,14 @@
+/*
+**********************************************************************
+DDL SCRIPT: CREATE SILVER TABLES
+**********************************************************************
+SCRIPT PURPOSE:
+THIS IS SCRIPT CREATES TABLE IN THE 'SILVER' SCHEMA, DROPPING EXISTING TABLES
+IF THEY ALREADY EXISTS.
+RUN THIS SCRIPT TO RE-DEFINE THE DDL STRUCTURES OF 'BRONZE' TABLES
+**********************************************************************
+*/
+
 IF OBJECT_ID ('SILVER.CRM_CUST_INFO','U') IS NOT NULL
    DROP TABLE SILVER.CRM_CUST_INFO;
 GO
